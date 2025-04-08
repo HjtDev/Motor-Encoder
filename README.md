@@ -1,4 +1,7 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+# Motor Encoder Monitoring System (Delta DVP-10SX + HMI 107DV)
+
+PLC/HMI system for real-time encoder data acquisition from a quadrature encoder. Tracks:
+- Motor speed (RPM)
+- Rotation direction (CW/CCW)
+- Shaft position (pulses)
+- Full revolution count
